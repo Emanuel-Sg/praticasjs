@@ -1,7 +1,7 @@
 const mudaCor = document.getElementById('mudaCor');
 
 function update() {
-    document.getElementById('update').style.backgroundColor = 'blue';
+    document.querySelector('p').style.backgroundColor = "blue";
 }
-mudaCor.addEventListener('click', update);
+
 
