@@ -30,7 +30,6 @@ function equacao() {
 
     let x2 = (valordebneg - raizdelta) / 2 * a;
     resultado.textContent = `O valor de X1 = ${x1.toFixed(2)} e X2 = ${x2.toFixed(2)}`;
-
 }
 calcular.addEventListener('click', equacao);
 
